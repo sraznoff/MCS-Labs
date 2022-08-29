@@ -13,6 +13,15 @@ public class week1VariablesAndOperations {
 		boolean isHot = false;
 		//create a variable to hold a person's first name
 		String firstName = "Gerald";
+		//create a variable to hold a street address
+		String streetAddress = "1234 W. Franklin Blvd, Thermopolis, WY 59015";
+		// print all variables to the console
+		System.out.println(availablePlaneSeats);
+		System.out.println(groceryBill);
+		System.out.println(middleInitial);
+		System.out.println(isHot);
+		System.out.println(firstName);
+		System.out.println(streetAddress);
 	}
 
 }

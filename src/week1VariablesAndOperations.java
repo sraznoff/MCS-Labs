@@ -22,6 +22,24 @@ public class week1VariablesAndOperations {
 		System.out.println(isHot);
 		System.out.println(firstName);
 		System.out.println(streetAddress);
+		
+		// a customer booked two plane seats, remove two seats from the available seats variable
+		//availablePlaneSeats	= availablePlaneSeats - 2;
+		availablePlaneSeats -= 2;
+		//add 2.15 to grocery purchase
+		groceryBill += 2.15;
+		//change middle initial to something else
+		middleInitial = 'j';
+		//flip hot outside variable
+		//isHot = true;
+		isHot = !isHot;
+		//concat the name
+		String fullName = firstName + ' ' + middleInitial + " smith";
+		System.out.println(fullName);
+				
+		//print an introduction
+		System.out.println("This is " + fullName + " Who lives at " + streetAddress);
+		
 	}
 
 }

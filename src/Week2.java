@@ -76,6 +76,26 @@ public class Week2 {
 		else {
 			System.out.println("Access denied");
 		}
-			
+		for (int i = 0; i <= 9; i ++) {
+			System.out.println(i);
+		}
+		for (int i = 10; i >=0; i--) {
+			System.out.println(i);
+		}
+		for (int i = 0; i <= 100; i+=2) {
+			System.out.println(i);
+		}
+		for (int i = 0; i<= 100; i++) {
+			if (i % 2 == 0){
+				System.out.println("even");
+			} else {
+				System.out.println("odd");
+			}
+		int j = 100;
+		while (j >= 0) {
+			System.out.println(j%3);
+			j --;
+		}
+		}
 	}
 }
